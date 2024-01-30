@@ -23,7 +23,7 @@ const WhiteButtonFrame = () => {
           Sign in with Google
         </div>
       </button>
-      <button className="cursor-pointer [border:none] pt-2 px-5 pb-[7px] bg-[transparent] absolute top-[0px] left-[174px] h-[33px] flex flex-row items-start justify-start box-border gap-[9px]">
+      <button className="cursor-pointer [border:none] pt-2 px-5 pb-[7px] bg-[transparent] absolute top-[0px] left-[174px] h-[33px] flex flex-row items-center justify-start box-border gap-[9px]">
         <div className="h-[calc(100%_-_0.1px)] w-[calc(100%_+_0.4px)] absolute my-0 mx-[!important] top-[0.3px] right-[-0.8px] bottom-[-0.2px] left-[0.4px]">
           <div className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-3xs bg-light-gohan" />
         </div>

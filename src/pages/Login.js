@@ -3,10 +3,10 @@ import WhiteButtonFrame from "../components/WhiteButtonFrame";
 
 const Login = () => {
   return (
-    <div className="w-[346px] relative bg-ghostwhite flex flex-col items-center justify-start pt-0 px-0 pb-[46px] box-border gap-[29px] text-left text-5xl text-light-popo font-ui-type-text-md-s">
+    <div className="w-[360px] relative bg-ghostwhite flex flex-col items-center justify-start pt-0 px-0 pb-[46px] box-border gap-[29px] text-left text-5xl text-light-popo font-ui-type-text-md-s">
       
       <Component />
-      <div className="w-[346px] h-[57px] flex flex-row items-start justify-start py-0 px-5 box-border font-montserrat">
+      <div className="w-[360px] h-[57px] flex flex-row items-start justify-start py-0 px-5 box-border font-montserrat">
         <div className="self-stretch w-[177px] flex flex-col items-start justify-start gap-[8px]">
           <h3 className="m-0 w-[143.8px] relative text-inherit font-bold font-inherit inline-block">
             Sign In
