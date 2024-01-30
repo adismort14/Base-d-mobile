@@ -50,7 +50,7 @@ const WhiteButtonFrame = () => {
             </div>
             <input
               className="w-[239px] [border:none] [outline:none] font-lato text-base bg-[transparent] h-[19px] relative text-light-popo text-left inline-block z-[2] ml-[-264px]"
-              placeholder="adityasa@iitbhilai.ac.in"
+              placeholder=""
               type="text"
             />
           </div>

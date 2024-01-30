@@ -1,11 +1,49 @@
-const NewFrame = () => {
+// const NewFrame = () => {
+//   return (
+//     <section className="self-stretch h-[418px] flex flex-col items-start justify-start py-0 px-4 box-border gap-[24px] text-left text-base text-text font-nunito max-w-full">
+//       <div className="flex flex-row items-start justify-start py-0 px-4">
+//         <b className="relative">Upload CSV</b>
+//       </div>
+//       <div className="self-stretch rounded-3xs bg-light-gohan shadow-[4px_4px_15px_rgba(0,_0,_0,_0.04)] flex flex-col items-center justify-start p-4 gap-[16px] text-center text-sm text-dark-trunks font-figtree">
+//         <div className="self-stretch rounded-lg flex flex-col items-center justify-start py-[91px] px-14 gap-[16px] z-[1] border-[1px] border-dashed border-light-beerus-hover mq450:pl-5 mq450:pr-5 mq450:box-border">
+//           <img
+//             className="w-9 h-9 relative"
+//             loading="eager"
+//             alt=""
+//             src="/frame-7682.svg"
+//           />
+//           <div className="relative leading-[24px]">
+//             <span>{`Upload your excel sheet `}</span>
+//             <span className="text-mediumslateblue-300">{`here `}</span>
+//           </div>
+//           <div className="w-[296px] relative rounded-lg box-border h-[258px] hidden border-[1px] border-dashed border-light-beerus-hover" />
+//         </div>
+//         <button className="cursor-pointer [border:none] py-[11px] pr-[113px] pl-[105px] bg-mediumslateblue-300 self-stretch rounded-lg overflow-hidden flex flex-row items-start justify-center gap-[8px] opacity-[0.4] hover:bg-mediumslateblue-200 mq450:pl-5 mq450:pr-5 mq450:box-border">
+//           <img
+//             className="h-6 w-6 relative min-h-[24px]"
+//             alt=""
+//             src="/icon.svg"
+//           />
+//           <div className="relative text-sm leading-[24px] font-semibold font-figtree text-light-gohan text-left">
+//             Upload
+//           </div>
+//         </button>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default NewFrame;
+
+import React from "react";
+
+const InputContainer1 = () => {
+
+
   return (
-    <section className="self-stretch h-[418px] flex flex-col items-start justify-start py-0 px-4 box-border gap-[24px] text-left text-base text-text font-nunito">
-      <div className="flex flex-row items-start justify-start py-0 px-4">
-        <b className="relative">Upload CSV</b>
-      </div>
-      <div className="self-stretch rounded-3xs bg-light-gohan shadow-[4px_4px_15px_rgba(0,_0,_0,_0.04)] flex flex-col items-center justify-start p-4 gap-[16px] text-center text-sm text-dark-trunks font-figtree">
-        <div className="self-stretch rounded-lg flex flex-col items-center justify-start py-[91px] px-14 gap-[16px] z-[1] border-[1px] border-dashed border-light-beerus-hover mq450:pl-5 mq450:pr-5 mq450:box-border">
+    <section className="w-[328px] h-[352px] rounded-3xs bg-light-gohan shadow-[4px_4px_15px_rgba(0,_0,_0,_0.04)] flex flex-col items-center justify-end pt-0 px-4 pb-4 box-border gap-[16px] max-w-full text-center text-sm text-dark-trunks font-figtree">
+      <div className="self-stretch h-[258px] rounded-lg box-border overflow-hidden shrink-0 flex flex-col items-center justify-center border-[1px] border-dashed border-light-beerus-hover">
+        <div className="flex flex-col items-center justify-start py-0 px-5 gap-[16px]">
           <img
             className="w-9 h-9 relative"
             loading="eager"
@@ -16,21 +54,18 @@ const NewFrame = () => {
             <span>{`Upload your excel sheet `}</span>
             <span className="text-mediumslateblue-300">{`here `}</span>
           </div>
-          <div className="w-[296px] relative rounded-lg box-border h-[258px] hidden border-[1px] border-dashed border-light-beerus-hover" />
         </div>
-        <button className="cursor-pointer [border:none] py-[11px] pr-[113px] pl-[105px] bg-mediumslateblue-300 self-stretch rounded-lg overflow-hidden flex flex-row items-start justify-center gap-[8px] opacity-[0.4] hover:bg-mediumslateblue-200 mq450:pl-5 mq450:pr-5 mq450:box-border">
-          <img
-            className="h-6 w-6 relative min-h-[24px]"
-            alt=""
-            src="/icon.svg"
-          />
-          <div className="relative text-sm leading-[24px] font-semibold font-figtree text-light-gohan text-left">
-            Upload
-          </div>
-        </button>
       </div>
+      <button
+        className="cursor-pointer [border:none] py-2 pr-4 pl-2 bg-mediumslateblue-300 self-stretch h-[46px] rounded-lg overflow-hidden shrink-0  opacity-[0.4] flex flex-row items-center justify-center box-border gap-[8px] hover:bg-mediumslateblue-200 mq450:pl-5 mq450:pr-5 mq450:box-border"
+      >
+        <img className="h-6 w-6 relative" alt="" src="/icon.svg" />
+        <div className="relative text-sm leading-[24px] font-semibold font-figtree text-light-gohan text-left">
+          Upload
+        </div>
+      </button>
     </section>
   );
 };
 
-export default NewFrame;
+export default InputContainer1;
